@@ -112,11 +112,11 @@ const votante3 = new Votantes('Soledad');
 const partido= new PartidoPolitico()
 
 
-const Candidato1 = new Presidente('Leito','Nazi');
+const Candidato1 = new Presidente('Leonardo','Radical');
 partido.agregarVoto();
-const Candidato2 = new Presidente('Carlos','Gringo')
+const Candidato2 = new Presidente('Carlos','Libertaio')
 partido.agregarVoto();
-const Candidato3 = new Presidente('Parce','Peroncho')
+const Candidato3 = new Presidente('Parce','Peronista')
 partido.agregarVoto();
 partido.agregarPresidente(Candidato1,votante1)
 partido.agregarPresidente(Candidato2,votante3)
@@ -125,9 +125,9 @@ partido.lista_presi()
 
 console.log('---------------------')
 
-const Candidato_Gober1 = new Gobernador('Samuel','Nazi')
+const Candidato_Gober1 = new Gobernador('Samuel','Libertaio')
 partido.agregarVoto();
-const Candidato_Gober2 = new Gobernador('Ricardo','Nazi')
+const Candidato_Gober2 = new Gobernador('Ricardo','Radical')
 partido.agregarVoto();
 partido.agregarGobernador(Candidato_Gober1,votante3)
 partido.agregarGobernador(Candidato_Gober2,votante1)
